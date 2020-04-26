@@ -1,2 +1,2 @@
-# Pewlett-Hackard-Analysis2
+# Pewlett-Hackard-Analysis
 Initial SQL exploration
