@@ -1,0 +1,58 @@
+
+--Find individuals from database who meet the pre-determined criteria
+
+SELECT e.emp_no,
+	e.first_name, 
+	e.last_name, 
+	t.title,
+	t.from_date,
+	de.from_date as title_start,
+	de.to_date
+INTO mentor_challenge
+FROM employees as e
+INNER JOIN dept_emp as de
+	ON (e.emp_no = de.emp_no)
+INNER JOIN titles as t
+	ON (e.emp_no = t.emp_no)
+WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+	AND (de.to_date = '9999-01-01');
+
+-- Creating a partitioned table for mentorship
+
+SELECT
+	mc.first_name, 
+	mc.last_name,
+	count(*)
+INTO tableWithCount
+FROM mentor_challenge as mc
+GROUP BY
+	first_name, 
+	last_name
+HAVING count(*) > 1;
+SELECT * FROM 
+	(SELECT *, COUNT(*)
+	OVER
+	(PARTITION BY
+	   first_name,
+		last_name
+	 ) AS count
+	 FROM mentor_challenge as mc) tableWithCount
+	 WhERE tableWithCount.count > 1;
+
+--Create the deduplicated data set.
+	
+SELECT emp_no, first_name, last_name, title, from_date, title_start, to_date 
+INTO mentorship_partition
+FROM
+  (SELECT emp_no, first_name, last_name, title, from_date, title_start, to_date,
+     ROW_NUMBER() OVER 
+(PARTITION BY (first_name, last_name) ORDER BY title_start DESC) rn
+   FROM mentor_challenge
+  ) tmp WHERE rn = 1;
+  
+SELECT count(*)
+FROM
+	mentorship_partition;
+	count value = 1549
+	
+
