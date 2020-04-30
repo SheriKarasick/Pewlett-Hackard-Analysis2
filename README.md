@@ -70,4 +70,4 @@ table with count total = 127644
   * Having a birth date between 01/1952 and 12/1955
   * Having a hire date with the company between 01/1985 and 12/1988
   * Not having departed from the company already (date of exit from the company is "9999-01-01"
-* 
+* a
