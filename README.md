@@ -37,7 +37,7 @@ INSERT DATA TABLE ABOUT MENTOR CANDIDATE POOL HERE.
 
 ###### Opportunities for Gender Equity
 
-![Title by Gender](TitlebyGender.png)
+![Title by Gender](TitlebyGender2.png)
 Across all job titles in the retiring candidate pool, a disproportionate number of men versus women have been hired and retained in every position of the organization. This parallels the overall tally of organizational staffing which demonstrates a gender disparity across the organization.  
 
 
@@ -51,7 +51,7 @@ While the baby-boomer generation is defined by .... , new leadership models have
 
 
 Many of these employees hold positions that are in leadership roles.
-![Retiring Staff by Title](RetiringStaffCountByTitle.png)
+![Retiring Staff by Title](RetiringStaffCountByTitle2.png)
 
 <p>In addition, many of these positions that are being vacated demonstrate the gender gap common among modern workforces with deep intrinsic biases that emerge as a result of rapidly changing cultural norms. 
 
