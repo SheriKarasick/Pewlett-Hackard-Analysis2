@@ -18,7 +18,9 @@ While the baby-boomer generation is defined by .... , new leadership models have
 Pewlett Hackard has 233,086 employees at this time (105,442 total employees who have had one title in their PH career; 127644 who have had more than one).  14.1%, or 32,859, of those employees are anticipated to retire in the next few years.  Of those employees, 
 
 Many of these employees hold positions that are in leadership roles.
-[!Retiring Staff by Title](RetiringStaffCountByTitle.png)
+[Retiring Staff by Title](RetiringStaffCountByTitle.png)
+in addition, many of these positions that are being vacated demonstrate the gender gap common among modern workforces with deep intrinsic biases that emerge as a result of cultural norms. 
+[Title by Gender](TitlebyGender.png)
 
 This will leave many leadership gaps in the organization. 
 
