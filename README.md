@@ -4,13 +4,13 @@ by Sharon Karasick
 04/28/2020
 
 ## Summary
-Pewlett-Hackard (PH), a large business extant for over 100 years boasts a robust workforce of nearly a quarter of a million employees.  As a comprehensive employer, exemplary employee retention rates are justified by employee data length.  Employees buck trends toward regular, frequent career transitions and appear to seek opportunities to grow within PH, a trait that distinguishes the culture and environment of the company over time. 
+Pewlett-Hackard (PH), a large business extant for over 100 years boasts a robust workforce of nearly a quarter of a million employees.  As a comprehensive employer, employee retention rates show a large number of professionals who commit to the company for the duration of their professional career.  Employees buck trends toward regular, frequent career transitions and appear to seek opportunities to grow within PH, a trait that distinguishes the culture and environment of the company over time. 
 
 This analysis was prompted by a recognition that PH underwent a period of significant growth as the baby-boomer generation entered the workforce.  Obviously, a period of rapid growth is a welcomed boon, but nearly three decades later it is anticipated that the same group of individuals who were hired and retained with PH for their career will be looking toward retirement in the imminent future. 
 
-To cultivate a better understanding of how this retirement event will influence the work environment and culture, multiple lines of inquiry are being investigated, utilizing the employment data available to this consulting firm.  These questions include: 
+To cultivate a better understanding of how this retirement event will influence the work environment and culture, multiple lines of inquiry are being investigated, utilizing human resources data available to this consulting firm.  These questions include: 
 
-* How will each department differentially be impacted by the exodus of so many employees in such a short period of time?
+* How will each job position (employment title) and department differentially be impacted by the exodus of so many employees in such a short period of time?
 * How can the deep institutional knowledge that is held by the exiting work population able to be retained and built upon to ensure long-term success?
 * And lastly, this firm would like to explore if this significant change in staffing and leadership provides an opportunity to address a concern addressing many 21st century organizations: are we appropriately nurturing diversity in our workforce and leadership roles?  If not, how can we leverage this to diversify our cognitive and social strengths to benefit the overall corporate health and capacity?
 
@@ -21,6 +21,10 @@ Pewlett Hackard has 233,086 employees at this time (105,442 total employees who 
 * __% are men, and 
 * The following departments will be influenced most significantly: 
 
+
+###### Influence by Department
+
+
 ###### Influence on Leadership
 What are considered the most valuable leadership traits have basically inverted in the past few decades.  Increasingly, the emphasis is on teams, collaboration, communication, creativity and soft skills that require emotional and social intelligence for corporate success.  
 
@@ -29,8 +33,6 @@ Mentorship programs, designed to support current junior/senior employees not cur
 INSERT DATA TABLE ABOUT MENTOR CANDIDATE POOL HERE.
 
 
-
-###### Influence by Department
 
 
 
@@ -52,6 +54,7 @@ While the baby-boomer generation is defined by .... , new leadership models have
 
 Many of these employees hold positions that are in leadership roles.
 ![Retiring Staff by Title](RetiringStaffCountByTitle2.png)
+_Figure 2: Entity Relationship Diagram
 
 <p>In addition, many of these positions that are being vacated demonstrate the gender gap common among modern workforces with deep intrinsic biases that emerge as a result of rapidly changing cultural norms. 
 
@@ -65,10 +68,14 @@ table with count total = 127644
 
 
 ## Data Exploration
-* Six separate data files were extracted from the staffing database to complete this data analysis.  Employee number and department number were the most frequently used keys for linking data between data sets.
+###### Establishing Relationships Between DataSets
+* Six separate data files were extracted from the staffing database to complete this data analysis.  Employee number and department number were the most frequently used keys for linking data between data sets.  The relationship between the items is defined and described in the Entity Relationship Diagram included below (Figure 3).
+
+###### Defining the "Retirement Ready" Subset of Employees
 * The following individuals were considered to be included in the retirement ready data category: 
   * Having a birth date between 01/1952 and 12/1955
   * Having a hire date with the company between 01/1985 and 12/1988
   * Not having departed from the company already (date of exit from the company is "9999-01-01"
-* a
+
 ![Entity relationship diagram](EmployeeDB2.png)
+_Figure 3: Entity Relationship Diagram
