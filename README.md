@@ -24,6 +24,7 @@ Pewlett Hackard has 233,086 employees at this time (105,442 total employees who 
 
 ###### Influence by Department
 
+![Retirement Charts](RetirementCharts.png)
 
 ###### Influence on Leadership
 What are considered the most valuable leadership traits have basically inverted in the past few decades.  Increasingly, the emphasis is on teams, collaboration, communication, creativity and soft skills that require emotional and social intelligence for corporate success.  
