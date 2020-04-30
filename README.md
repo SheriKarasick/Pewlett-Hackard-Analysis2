@@ -64,10 +64,11 @@ tablewithcount1 = 105442
 table with count total = 127644
 
 
-## Justification of Data
+## Data Exploration
 * Six separate data files were extracted from the staffing database to complete this data analysis.  Employee number and department number were the most frequently used keys for linking data between data sets.
 * The following individuals were considered to be included in the retirement ready data category: 
   * Having a birth date between 01/1952 and 12/1955
   * Having a hire date with the company between 01/1985 and 12/1988
   * Not having departed from the company already (date of exit from the company is "9999-01-01"
 * a
+![Entity relationship diagram](EmployeeDB2.png)
