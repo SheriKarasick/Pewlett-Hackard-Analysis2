@@ -54,8 +54,8 @@ The following .txt files contain the queries used to generate the data in this a
 * [Mentorship Inclusion Query](MentorshipPartition.txt)
 
 The following CSV files contain data extracted from the source dataset.
-* [Challenge Inclusion Query](retirement_info.csv)
-* [Mentorship Inclusion Query](mentorship_partition.csv)
+* [Challenge Inclusion Query](/data/challenge_partition.csv)
+* [Mentorship Inclusion Query](/data/mentorship_partition.csv)
 
 ![Entity relationship diagram](EmployeeDB2.png)
 ***Figure 3: Entity Relationship Diagram***
