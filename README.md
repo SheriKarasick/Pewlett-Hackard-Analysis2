@@ -58,4 +58,4 @@ The following CSV files contain data extracted from the source dataset.
 * [Mentorship Inclusion Query](/data/mentorship_partition.csv)
 
 ![Entity relationship diagram](EmployeeDB2.png)
-***Figure 3: Entity Relationship Diagram***
+<p><em>Figure 3: Entity Relationship Diagram</em></P>
